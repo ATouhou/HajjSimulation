@@ -1,8 +1,7 @@
   // MoveTo.cs
     using UnityEngine;
     using System.Collections;
-    using Random;
-    
+   
     public class MoveTo : MonoBehaviour {
        
        public Transform goal;
@@ -22,9 +21,9 @@
         }
         else
         {
-          if(rand.value() == 0.0)
+          if(Random.value() == 0.0)
           {
-            agent.speed = 0
+            agent.speed = 0;
           }
           else {
 
